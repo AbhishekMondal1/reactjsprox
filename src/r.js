@@ -1,14 +1,15 @@
-import React,{Component} from 'react';
+import React from 'react';
 
 
-class Student extends Component{
-    render(){
+function Student(props){
         return (
             <div>
-            <h1>Score {Math.random()} Marks</h1>
+            <h1>{props.name} Score {Math.random()*100} Marks</h1>
+            <p>{props.children}</p>
             </div>
+
+
         );
-    }
 }
 
 export default Student;

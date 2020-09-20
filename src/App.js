@@ -10,10 +10,10 @@ function App() {
     <h1>First React Application </h1>
     </div>
     <div className="App1">
-    <Student/>
-    <Student/>
-    <Student/>
-    <Student/>
+    <Student name="Rock"> Top Score </Student>
+    <Student name="Bill"/>
+    <Student name="Mark"/>
+    <Student name="Zoe"/>
     </div>
     </div>
     );
